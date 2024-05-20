@@ -4,13 +4,13 @@ All you need to know, learn and practice about javascript.
 
 ![Javascript](https://www.freecodecamp.org/news/content/images/2020/04/jsposter.jpg)
 
-### Basics
+## Basics
 
-### Object Oriented Programming
+## Object Oriented Programming
 
-### Data Structures
+## Data Structures
 
-### Design Patterns
+## Design Patterns
 
-### Algorithms
+## Algorithms
 
