@@ -1,4 +1,4 @@
 # Javascript
 
-![Javascript](https://files.ably.io/ghost/prod/2023/12/choosing-the-best-javascript-frameworks-for-your-next-project.png)
+![Javascript](https://www.freecodecamp.org/news/content/images/2020/04/jsposter.jpg)
 
