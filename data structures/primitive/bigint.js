@@ -18,6 +18,11 @@ const Launch = () => {
   console.log("Number7: ", typeof num7, num7);
   console.log("NumberMax: ", Number.MAX_SAFE_INTEGER);
   console.log("BigIntMax: ", Number.MAX_VALUE);
+
+  const mixed = [4n, 6, -12n, 10, 4, 0, 0n];
+  console.log("Mixed Unsorted: ", mixed);
+  mixed.sort((a, b) => (a < b ? -1 : a > b ? 1 : 0));
+  console.log("Mixed Sorted: ", mixed);
 };
 
 Launch();
