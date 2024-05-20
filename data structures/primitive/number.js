@@ -13,6 +13,7 @@ const Launch = () => {
   let sum2 = x + z;
   let sum3 = x + +a;
   let prod = e * b;
+  let prod2 = (e * z).toFixed(3);
   console.log("Sum1: ", sum1);
   console.log("Sum2: ", sum2);
   console.log("Sum3: ", sum3);
@@ -21,6 +22,7 @@ const Launch = () => {
   console.log("Octal: ", d);
   console.log("Exponential: ", e);
   console.log("Prod1: ", prod);
+  console.log("Prod2: ", prod2);
   console.log("NumberMax: ", Number.MAX_SAFE_INTEGER);
 };
 

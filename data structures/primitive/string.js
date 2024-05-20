@@ -5,8 +5,16 @@ const Launch = () => {
   let grade = "A"; // Letter/Character
   // Sentence
   let description = `My name is ${name} !`;
+  let d1, d2;
   console.log("Sentence: ", description);
+  console.log("Length: ", description.length);
+  console.log("CharAt: ", description.charAt(5));
+  console.log("IndexValue: ", description[6]);
   console.log("ASCII: ", grade.charCodeAt(0));
+  console.log("Slice: ", (d1 = description.slice(3, 10)));
+  console.log("D1: ", d1);
+  console.log("SubString: ", (d2 = description.substring(4, 12)));
+  console.log("D2: ", d2);
 };
 
 Launch();
