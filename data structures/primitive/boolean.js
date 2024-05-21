@@ -1,14 +1,20 @@
 // Primitive Data-Type
 const Launch = () => {
   // Boolean
-  let passed = new Boolean(false); // Object
-  let passed2 = new Boolean("true"); // Object
+
+  // Default Object -> false
+  let unknown = new Boolean();
+  console.log("Unknown: ", unknown);
+
+  // Object
+  let passed = new Boolean(false); // Boolean
+  let passed2 = new Boolean("true"); // String
   if (passed || passed2) {
     console.log("You Passed!");
   }
 
-  let isMale = true; // Direct
-  console.log(`Gender: ${isMale ? "Male" : "Female"}`);
+  let isMale = true; // Direct Boolean
+  console.log(`Gender: ${isMale ? "Male" : "Female"}`); // As Condition
 
   let Truth = 3 == 5 || 7 > 4; // Conditional
   if (Truth) {
