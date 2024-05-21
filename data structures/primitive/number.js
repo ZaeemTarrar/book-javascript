@@ -28,9 +28,9 @@ let N = Infinity; // Infinity
 let O = Number("Hello"); // String to Number -> NaN
 
 console.log("A: ", A);
-console.log("A [Exp]: ", w.toExponential(3));
-console.log("A [Pre]: ", w.toPrecision(2));
-console.log("A [Fix]: ", w.toFixed(2));
+console.log("A [Exp]: ", A.toExponential(3));
+console.log("A [Pre]: ", A.toPrecision(2));
+console.log("A [Fix]: ", A.toFixed(2));
 console.log("B: ", B);
 console.log("C: ", C);
 console.log("D: ", D);

@@ -1,7 +1,7 @@
 /**
  * Primitive Data Type/Structure
- * * Name: Symbol
- * ? Description: ...
+ * Name: Symbol
+ * Description: ...
  **/
 
 let S = Symbol("My Id");
