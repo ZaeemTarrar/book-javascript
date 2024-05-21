@@ -6,11 +6,23 @@ All you need to know, learn and practice about javascript.
 
 ## Fundamentals
 
-## Object Oriented Programming
-
 ## Data Structures
 
+- Primitive Types
+    - Boolean
+    - Number
+    - BigInt
+    - String
+    - Symbol
+    - Null
+    - Undefined
+- Non-Primitive Types
+    - Object
+    - Array
+
 ## Design Patterns
+
+## Object Oriented Programming
 
 ## Algorithms
 
