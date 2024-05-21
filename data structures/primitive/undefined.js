@@ -1,11 +1,8 @@
-// Primitive Data-Type
-const Launch = () => {
-  // Undefined
-  // undefined means that no value was set
-  let box;
-  if (box) {
-    console.log("Box: ", box);
-  }
-};
+/**
+ * Primitive Data Type/Structure
+ * * Name: Undefined
+ * ? Description: undefined means that no value was set
+ **/
 
-Launch();
+let A;
+if (A) console.log("A: ", A);

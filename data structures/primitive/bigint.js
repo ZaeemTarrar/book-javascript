@@ -21,6 +21,8 @@ const Launch = () => {
 
   const mixed = [4n, 6, -12n, 10, 4, 0, 0n];
   console.log("Mixed Unsorted: ", mixed);
+
+  // Correct way to Sort
   mixed.sort((a, b) => (a < b ? -1 : a > b ? 1 : 0));
   console.log("Mixed Sorted: ", mixed);
 };

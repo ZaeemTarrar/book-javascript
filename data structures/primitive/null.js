@@ -1,10 +1,8 @@
-// Primitive Data-Type
-const Launch = () => {
-  // NULL -> null is actually a value, which is technically no value
-  let box = null;
-  if (box) {
-    console.log("Box: ", box);
-  }
-};
+/**
+ * Primitive Data Type/Structure
+ * * Name: null
+ * ? Description: null is actually a value, which is technically no value
+ **/
 
-Launch();
+let A = null;
+if (A) console.log("A: ", A);
