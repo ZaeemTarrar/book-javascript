@@ -76,6 +76,26 @@ const Launch = () => {
   console.log("AgeTimesN [Apply]: ", ageTimesN.apply(person, [2]));
 
   console.log("AgeTimesN [Bind]: ", person_ageTimesN(3));
+
+  // ===========================================
+
+  // Functional Object
+  function Shape(radius) {
+    this.radius = radius;
+  }
+  function Circle(radius) {
+    let that = Shape(radius);
+
+    return that;
+  }
+
+  // Adding new Method -> Prototype
+  Shape.prototype.getArea = function () {
+    return Math.PI * Math.pow(this.radius, 2);
+  };
+
+  const circle = new Circle(5);
+  console.log("Circle Area: ", circle.getArea());
 };
 
 Launch();
