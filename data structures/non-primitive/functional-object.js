@@ -5,6 +5,7 @@
  * Note:
  *  "this" keyword is only available with function(){} and not with ()=>{}
  *  Direct declarations are private and "this" declarations are public
+ *  Diamond Problem:
  **/
 
 function A(l = 0, w = 0) {
@@ -39,7 +40,7 @@ function A(l = 0, w = 0) {
 }
 
 function B(l = 0, w = 0, h = 0) {
-  // Inheritance
+  // Inheritance (First Level)
   let parent = new A(l, w);
 
   // Private Properties
@@ -68,18 +69,36 @@ function B(l = 0, w = 0, h = 0) {
   return parent;
 }
 
-function C() {}
+function C(l = 0, w = 0, h = 0) {}
 
-function D(n, l = 0, w = 0, h = 0) {
-  // Inheritance
-  let parent = new B(l, w, h);
+function D(s = 0) {
+  // Multi-Level Inheritance (Second Level)
+  let parent = new B(s, s, s); // Cube Concept
+
+  // Public Setters
+  this.setSize = function (s) {
+    parent.setLength(s);
+    parent.setWidth(s);
+    parent.setHeight(s);
+  };
+
+  // Public Getters
+  this.getSize = function () {
+    return parent.getLength();
+  };
 
   // Public Properties
-  this.name = n;
+  this.name = "Cube";
 }
+
+// Adding a New Method via Prototyping
+D.prototype.Parameter = function () {
+  return this.getSize() * 4;
+};
 
 const A_Object = new A(3, 5);
 const B_Object = new B(3, 5, 2);
+const D_Object = new D(6);
 
 console.log("A: ", A);
 console.log("A_Object: ", A_Object);
@@ -112,29 +131,10 @@ console.log("B_Object [Area]: ", B_Object.Area());
 console.log("B_Object [Volume]: ", B_Object.Volume());
 console.log("B_Object [Description]: ", B_Object.Description());
 
-// function B(l = 0, w = 0, h = 0) {
-//   let parent = A(l, w);
-//   parent.height = h;
-//   parent.Area = function () {
-//     parent;
-//   };
-//   return parent;
-// }
+console.log("\nD: ", D);
+console.log("D_Object: ", D_Object);
+console.log("D_Object: ", D_Object.name);
+console.log("D_Object [Parameter]: ", D_Object.Parameter());
 
-// // Functional Object
-// function Shape(radius) {
-//   this.radius = radius;
-// }
-// function Circle(radius) {
-//   let that = Shape(radius);
-
-//   return that;
-// }
-
-// // Adding new Method -> Prototype
-// Shape.prototype.getArea = function () {
-//   return Math.PI * Math.pow(this.radius, 2);
-// };
-
-// const circle = new Circle(5);
-// console.log("Circle Area: ", circle.getArea());
+D_Object.setSize(8);
+console.log("D_Object [Parameter]: ", D_Object.Parameter());
