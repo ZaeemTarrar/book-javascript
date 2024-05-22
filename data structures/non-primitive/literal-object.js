@@ -1,19 +1,20 @@
 /**
  * Non-Primitive Data Type/Structure
- * Name: Object
+ * Name: Literal Object
  * Description: ...
  * Note: "this" keyword is only available with function(){} and not with ()=>{}
  **/
 
-const A = new Object();
-A.length = 3;
-A.width = 4;
-A.set = function (l, w) {
-  this.length = l;
-  this.width = w;
-};
-A.Area = function () {
-  return this.length * this.width;
+const A = {
+  length: 3,
+  width: 4,
+  set: function (l, w) {
+    this.length = l;
+    this.width = w;
+  },
+  Area: function () {
+    return this.length * this.width;
+  },
 };
 
 console.log("A: ", A);
@@ -27,24 +28,6 @@ console.log("A [Entries]: ", Object.entries(A));
 console.log("A [Keys]: ", Object.keys(A));
 console.log("A [Values]: ", Object.values(A));
 console.log("A [Property]: ", Object.getOwnPropertyNames(A));
-
-function Volume() {
-  return this.length * this.width * this.height;
-}
-
-function Magnify(times) {
-  this.length *= times;
-  this.width *= times;
-  this.height *= times;
-  return this;
-}
-
-function MagnifyEach(t1, t2, t3) {
-  this.length *= t1;
-  this.width *= t2;
-  this.height *= t3;
-  return this;
-}
 
 // Add New Property
 A.height = 12;
