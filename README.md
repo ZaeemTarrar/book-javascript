@@ -1,4 +1,4 @@
-<div align="center" >
+<div>
 
 <img style="width:100px;" src=".github/assets/book.png" >
 <img style="width:100px;" src=".github/assets/js.webp" >
