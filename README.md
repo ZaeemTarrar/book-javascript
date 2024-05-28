@@ -16,11 +16,11 @@ Comprehensive knowledge, learning resources, and practice materials for masterin
 
 <br />
 
-<div>
+<div align="center" >
 
 <img style="width:70px;" src=".github/assets/ds.png" /> 
 
-## Data Structures
+<h2>Data Structures</h2>
 
 </div>
 
