@@ -11,8 +11,11 @@ Comprehensive knowledge, learning resources, and practice materials for masterin
 ## Fundamental
 
 <div align="center" >
-<img style="width:70px;" src=".github/assets/ds.png" /><span>&nbsp;</span> 
+
+<img style="width:70px;" src=".github/assets/ds.png" /> 
+
 ## Data Structures
+
 </div>
 
 - Primitive Types
