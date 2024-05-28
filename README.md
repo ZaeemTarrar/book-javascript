@@ -80,6 +80,20 @@ The principles of object-oriented programming in JavaScript, including classes, 
 
 </div>
 
+- Classes / Objects
+- Methods / Prototypes
+- Access Modifiers
+- Encapsulation
+- Inheritance
+    - Multi-Level Inheritance 
+    - Multiple Inheritance
+- Abstraction
+- Polymorphism
+- Mixins
+- Object Composition
+- Modules and Name-spacing
+- Error Handling
+
 <br />
 
 <div align="center" >
