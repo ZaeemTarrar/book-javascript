@@ -74,7 +74,7 @@ The principles of object-oriented programming in JavaScript, including classes, 
 
 <div align="center" >
 
-<img style="width:80px;" src=".github/assets/ds.png" /> 
+<img style="width:80px;" src=".github/assets/algo.png" /> 
 
 <h2>Algorithms</h2>
 
