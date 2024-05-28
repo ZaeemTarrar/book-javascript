@@ -12,7 +12,7 @@ Comprehensive knowledge, learning resources, and practice materials for masterin
 
 <div align="center" >
 
-<img style="width:80px;" src=".github/assets/code1.png" /> 
+<img style="width:80px;" src=".github/assets/code2.png" /> 
 
 <h2>Fundamentals</h2>
 
