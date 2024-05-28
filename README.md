@@ -3,12 +3,12 @@
 <img style="width:100px;" src=".github/assets/book.png" >
 <img style="width:100px;" src=".github/assets/js.webp" >
 
-# <img style="width:30px;" src=".github/assets/pencil.png" /><span>&nbsp;</span>  Learn Everything about JavaScript
+# <img style="width:30px;" src=".github/assets/pencil.png" /><span>&nbsp;</span> Learn Everything about JavaScript
 
 Comprehensive knowledge, learning resources, and practice materials for mastering JavaScript.
 </div>
 
-## Fundamentals
+## Fundamental
 
 ## Data Structures
 
