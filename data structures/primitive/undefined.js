@@ -1,5 +1,5 @@
 /**
- * 📕 Primitive Data Type/Structure
+ * 📕 Primitive Data-Type
  * Name: Undefined
  * Description:
  *  undefined means that no value was set
