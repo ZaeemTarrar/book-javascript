@@ -5,7 +5,7 @@
 
 # <img style="width:50px;" src=".github/assets/pencil.png" /><span>&nbsp;</span> Learn Everything about JavaScript
 
-Comprehensive knowledge, learning resources, and practice materials for mastering JavaScript.
+Comprehensive knowledge, learning resources, and practice materials for mastering JavaScript, from basic concepts to advanced techniques.
 </div>
 
 <br />
@@ -16,7 +16,7 @@ Comprehensive knowledge, learning resources, and practice materials for masterin
 
 <h2>Fundamentals</h2>
 
-<p>Core concepts and syntax of JavaScript, providing a strong foundation for advanced topics.</p>
+In-depth exploration of core concepts and syntax of JavaScript, providing a strong foundation for more advanced topics.
 
 </div>
 
