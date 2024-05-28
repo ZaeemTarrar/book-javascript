@@ -62,7 +62,7 @@ Comprehensive guide to best practices for designing reusable and maintainable co
 
 <div align="center" >
 
-<img style="width:80px;" src=".github/assets/ds.png" /> 
+<img style="width:80px;" src=".github/assets/oop3.png" /> 
 
 <h2>Object Oriented Programming</h2>
 
