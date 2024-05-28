@@ -1,4 +1,4 @@
-<div>
+<div align="center" >
 
 <img style="width:100px;" src=".github/assets/book.png" >
 <img style="width:100px;" src=".github/assets/js.webp" >
@@ -16,7 +16,7 @@ Comprehensive knowledge, learning resources, and practice materials for masterin
 
 <br />
 
-<div align="center" >
+<div>
 
 <img style="width:70px;" src=".github/assets/ds.png" /> 
 
