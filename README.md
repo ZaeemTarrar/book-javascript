@@ -16,6 +16,8 @@ Comprehensive knowledge, learning resources, and practice materials for masterin
 
 <h2>Fundamentals</h2>
 
+<p>Core concepts and syntax of JavaScript, providing a strong foundation for advanced topics.</p>
+
 </div>
 
 - Conditional Statements
