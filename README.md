@@ -10,7 +10,10 @@ Comprehensive knowledge, learning resources, and practice materials for masterin
 
 ## Fundamental
 
-## <img style="width:50px;" src=".github/assets/ds.png" /><span>&nbsp;</span> Data Structures
+<div align="center" >
+<img style="width:70px;" src=".github/assets/ds.png" /><span>&nbsp;</span> 
+## Data Structures
+</div>
 
 - Primitive Types
     - Boolean
