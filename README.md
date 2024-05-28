@@ -30,6 +30,8 @@ In-depth exploration of core concepts and syntax of JavaScript, providing a stro
 
 <h2>Data Structures</h2>
 
+Detailed implementation and usage of essential data structures, enabling efficient data management and organization.
+
 </div>
 
 - Primitive Types
@@ -44,9 +46,39 @@ In-depth exploration of core concepts and syntax of JavaScript, providing a stro
     - Object
     - Array
 
-## Design Patterns
+<br />
 
-## Object Oriented Programming
+<div align="center" >
 
-## Algorithms
+<img style="width:80px;" src=".github/assets/ds.png" /> 
+
+<h2>Design Patterns</h2>
+
+Comprehensive guide to best practices for designing reusable and maintainable code using established design patterns.
+
+</div>
+
+<br />
+
+<div align="center" >
+
+<img style="width:80px;" src=".github/assets/ds.png" /> 
+
+<h2>Object Oriented Programming</h2>
+
+The principles of object-oriented programming in JavaScript, including classes, inheritance, and encapsulation, to build modular and scalable applications.
+
+</div>
+
+<br />
+
+<div align="center" >
+
+<img style="width:80px;" src=".github/assets/ds.png" /> 
+
+<h2>Algorithms</h2>
+
+Thorough solutions and explanations for common algorithmic challenges, aimed at enhancing problem-solving skills.
+
+</div>
 
