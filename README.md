@@ -50,11 +50,11 @@ Detailed implementation and usage of essential data structures, enabling efficie
 
 <div align="center" >
 
-<img style="width:80px;" src=".github/assets/design.png" /> 
+<img style="width:80px;" src=".github/assets/oop3.png" /> 
 
-<h2>Design Patterns</h2>
+<h2>Object Oriented Programming</h2>
 
-Comprehensive guide to best practices for designing reusable and maintainable code using established design patterns.
+The principles of object-oriented programming in JavaScript, including classes, inheritance, and encapsulation, to build modular and scalable applications.
 
 </div>
 
@@ -62,11 +62,11 @@ Comprehensive guide to best practices for designing reusable and maintainable co
 
 <div align="center" >
 
-<img style="width:80px;" src=".github/assets/oop3.png" /> 
+<img style="width:80px;" src=".github/assets/design.png" /> 
 
-<h2>Object Oriented Programming</h2>
+<h2>Design Patterns</h2>
 
-The principles of object-oriented programming in JavaScript, including classes, inheritance, and encapsulation, to build modular and scalable applications.
+Comprehensive guide to best practices for designing reusable and maintainable code using established design patterns.
 
 </div>
 
