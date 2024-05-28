@@ -50,7 +50,7 @@ Detailed implementation and usage of essential data structures, enabling efficie
 
 <div align="center" >
 
-<img style="width:80px;" src=".github/assets/ds.png" /> 
+<img style="width:80px;" src=".github/assets/design.png" /> 
 
 <h2>Design Patterns</h2>
 
