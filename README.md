@@ -22,9 +22,9 @@ In-depth exploration of core concepts and syntax of JavaScript, providing a stro
 
 - Conditional Statements
     - If Statement
-    ```javascript
-    if( /* Boolean */ ) { /* Code */ }
-    ```
+        ```javascript
+        if( /* Boolean */ ) { /* Code */ }
+        ```
     - If else Statement
     - If elseIf else Statement
     - Switch Statement
