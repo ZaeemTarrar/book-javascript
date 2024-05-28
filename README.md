@@ -10,7 +10,13 @@ Comprehensive knowledge, learning resources, and practice materials for masterin
 
 <br />
 
-## Fundamental
+<div align="center" >
+
+<img style="width:70px;" src=".github/assets/ds.png" /> 
+
+<h2>Fundamentals</h2>
+
+</div>
 
 - Conditional Statements
 
