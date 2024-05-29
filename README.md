@@ -56,7 +56,7 @@ Detailed implementation and usage of essential data structures, enabling efficie
 
 </div>
 
-### 🔆🖍️📌 Primitive Types
+### 📌🔖 Primitive Types
     - Boolean
     - Number
         - Decimal
