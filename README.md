@@ -59,14 +59,27 @@ Detailed implementation and usage of essential data structures, enabling efficie
 - Primitive Types
     - Boolean
     - Number
+        - Decimal
+            - Float
+            - Double
+        - Hex
+        - Octal
+        - Binary
+        - NaN
+        - Exponential
     - BigInt
     - String
+        - Character (Single Character String)
     - Symbol
-    - Null
-    - Undefined
 - Non-Primitive Types
     - Object
+        - Object (Regular Constructor)
+        - Literal Object
+        - Functional Object
+        - Null
+        - Undefined
     - Array
+        - Nested Array
 
 <br />
 
