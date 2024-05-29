@@ -56,7 +56,7 @@ Detailed implementation and usage of essential data structures, enabling efficie
 
 </div>
 
-### 📌🔖 Primitive Types
+### 🔖 Primitive Types
     - Boolean
     - Number
         - Decimal
@@ -71,11 +71,14 @@ Detailed implementation and usage of essential data structures, enabling efficie
     - String
         - Character (Single Character String)
     - Symbol
-- Non-Primitive Types
+### 🔖 Non-Primitive Types
     - Object
         - Object (Regular Constructor)
         - Literal Object
         - Functional Object
+        - String
+        - Boolean
+        - Number
         - Null
         - Undefined
     - Array
