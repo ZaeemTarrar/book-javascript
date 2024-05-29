@@ -84,6 +84,9 @@ Detailed implementation and usage of essential data structures, enabling efficie
     - Undefined
 - Array
     - Nested Array
+- Function
+    - Closure
+- Generator
 
 <br />
 
@@ -100,6 +103,8 @@ The principles of object-oriented programming in JavaScript, including classes, 
 - Classes / Objects
 - Methods / Prototypes
 - Access Modifiers
+    - Public
+    - Private (#)
 - Encapsulation
 - Inheritance
     - Multi-Level Inheritance 
