@@ -75,6 +75,7 @@ Detailed implementation and usage of essential data structures, enabling efficie
 ### 🔖 Non-Primitive Types
 - Object
     - Object (Regular Constructor)
+    - Class and Custom Class Object
     - Literal Object
     - Functional Object
     - String
@@ -84,9 +85,9 @@ Detailed implementation and usage of essential data structures, enabling efficie
     - Undefined
 - Array
     - Nested Array
-- Function
+- Function (Regular/Lambda)
+    - Generator
     - Closure
-- Generator
 
 <br />
 
