@@ -22,25 +22,8 @@ In-depth exploration of core concepts and syntax of JavaScript, providing a stro
 
 - Conditional Statements
     - If Statement
-
-        ```javascript
-        if( /* Boolean */ ) { /* Code */ }
-        ```
     - If else Statement
-
-        ```javascript
-        if( /* Boolean */ ) { /* Code if true */ }
-        else { /* Code if false */ }
-        ```
     - If elseIf else Statement
-
-        ```javascript
-        if( /* Boolean X */ ) { /* Code if X is true */ }
-        else if( /* Boolean Y */ ) { 
-            /* Code if Y is true */ 
-        }
-        else { /* Code if none is true */ }
-        ```
     - Switch Statement
     - Ternary Statement
 
