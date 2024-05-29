@@ -7,26 +7,114 @@
  *  Protected modifier is used just for the sake of it
  **/
 
+/**
+ * **Class:** A
+ * @type {object}
+ */
 class A {
+  /**
+   * **Property:** name
+   * @accessibility PUBLIC
+   * @description Name
+   * @type {string}
+   */
   name = "Anonymous";
+
+  /**
+   * **Property:** length
+   * @accessibility PRIVATE
+   * @description Length
+   * @type {number}
+   */
   #length = 0;
+
+  /**
+   * **Property:** width
+   * @accessibility PRIVATE
+   * @description Width
+   * @type {number}
+   */
   #width = 0;
 
+  /**
+   * **Property:** title
+   * @static
+   * @accessibility PUBLIC
+   * @description Title
+   * @type {string}
+   */
   static title = "Template";
+
+  /**
+   * **Property:** count
+   * @static
+   * @accessibility PRIVATE
+   * @description Count
+   * @type {number}
+   */
   static #count = 0;
+
+  /**
+   * **Encapsulation:** count
+   * @static
+   * @accessibility PUBLIC
+   * @capsule GETTER
+   * @description Count
+   * @returns {number}
+   * @type {() => number}
+   */
   static get count() {
     return A.#count;
   }
+
+  /**
+   * **Encapsulation:** count
+   * @static
+   * @accessibility PUBLIC
+   * @capsule SETTER
+   * @description Count
+   * @param {number} count
+   * @returns {void}
+   * @type {function}
+   */
   static set count(count) {
     A.#count = count;
   }
+
+  /**
+   * **Method:** addCount
+   * @static
+   * @accessibility PRIVATE
+   * @description Adds 1 to the value of "count"
+   * @returns {void}
+   * @type {function}
+   */
   static #addCount = function () {
     A.count = A.count + 1;
   };
+
+  /**
+   * **Method:** displayCount
+   * @static
+   * @accessibility PUBLIC
+   * @description Count Info in string format
+   * @returns {string}
+   * @type {function}
+   */
   static displayCount = function () {
     return `No. of Object: ${A.count}`;
   };
 
+  /**
+   * **Constructor**
+   * @accessibility PUBLIC
+   * @description name, length, width, count
+   * @param {string} name
+   * @param {number} length
+   * @param {number} width
+   * @returns {void}
+   * @type {function}
+   */
   constructor(name = "Anonymous", length = 0, width = 0) {
     this.name = name;
     this.length = length;
@@ -34,22 +122,64 @@ class A {
     A.#addCount();
   }
 
+  /**
+   * **Encapsulation:** length
+   * @accessibility PUBLIC
+   * @capsule SETTER
+   * @description Length
+   * @returns {void}
+   * @type {function}
+   */
   set length(length) {
     this.#length = length;
   }
 
+  /**
+   * **Encapsulation:** width
+   * @accessibility PUBLIC
+   * @capsule SETTER
+   * @description Width
+   * @returns {void}
+   * @type {function}
+   */
   set width(width) {
     this.#width = width;
   }
 
+  /**
+   * **Encapsulation:** length
+   * @accessibility PUBLIC
+   * @capsule GETTER
+   * @description Length
+   * @returns {number}
+   * @type {function}
+   */
   get length() {
     return this.#length;
   }
 
+  /**
+   * **Encapsulation:** width
+   * @accessibility PUBLIC
+   * @capsule GETTER
+   * @description Width
+   * @returns {number}
+   * @type {function}
+   */
   get width() {
     return this.#width;
   }
 
+  /**
+   * **Method:** area
+   * @accessibility PUBLIC
+   * @description Calculates area
+   * @returns {number} Area calculated
+   * @type {function}
+   * @example
+   *    let A_Obj = new A(2,3);
+   *    let a:number = A_Obj.area();
+   */
   area() {
     return this.length * this.width;
   }
