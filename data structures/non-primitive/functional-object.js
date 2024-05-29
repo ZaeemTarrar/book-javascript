@@ -338,6 +338,11 @@ const A_Object = new A(3, 5);
 const B_Object = new B(3, 5, 2);
 
 /**
+ * @type {C}
+ */
+const C_Object = new C("Brown");
+
+/**
  * @type {D}
  */
 const D_Object = new D(6, "Red", 8);
@@ -380,6 +385,17 @@ console.log("B_Object [Volume]: ", B_Object.Volume());
 console.log("B_Object [Description]: ", B_Object.Description());
 
 /**
+ * Displaying Functional Object "C" along with its methods
+ */
+console.log("\nC: ", C);
+console.log("B_Object: ", C_Object);
+console.log("B_Object [getColor]: ", C_Object.getColor());
+console.log("B_Object [About]: ", C_Object.About());
+console.log("B_Object [Content]: ", C_Object.Content());
+C_Object.setColor("Silver");
+console.log("B_Object [getColor]: ", C_Object.getColor());
+
+/**
  * Displaying Functional Object "D" along with its methods
  */
 console.log("\nD: ", D);
@@ -394,4 +410,3 @@ D_Object.setCorners(4);
 console.log("D_Object [Parameter]: ", D_Object.Parameter());
 console.log("D_Object [About]: ", D_Object.About());
 console.log("D_Object [Type]: ", D_Object.Type());
-console.log("D_Object [Content]: ", D_Object.Content());
